@@ -1,0 +1,9 @@
+Compiling C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro on 22-Oct-19 at 19:33
+>>> Warning 203 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro.c" Line 43(1,1): Condition always TRUE
+>>> Warning 202 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro.c" Line 23(9,16): Variable never used:   voltaje
+>>> Warning 202 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro.c" Line 24(9,15): Variable never used:   prueba
+>>> Warning 202 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro.c" Line 25(8,12): Variable never used:   cont
+>>> Warning 202 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Maestro\Maestro.c" Line 31(19,20): Variable never used:   c
+      Memory usage:   ROM=6%      RAM=6% - 7%
+      0 Errors,  5 Warnings.
+Build Successful.

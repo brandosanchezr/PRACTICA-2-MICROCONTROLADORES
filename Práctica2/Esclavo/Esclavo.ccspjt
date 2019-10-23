@@ -1,0 +1,198 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=134
+
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=Esclavo.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+CCSVersion=5.083
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=Esclavo.c
+
+[Esclavo.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Esclavo.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[ProjectLog]
+Days=5
+D1=09-10-2019
+D1_L=11
+D1_L1=[70351]Project Closed.
+D1_L2=[70351]Project Opened.
+D1_L3=[70371]Project Closed.
+D1_L4=[73046]Project Opened.
+D1_L5=[73070]Started Editing.
+D1_L6=[74246]Stopped Editing.
+TotalEdit=208
+TotalDebug=0
+D1_E=23
+D1_D=0
+D1_L7=[74246]Project Closed.
+D1_L8=[75095]Project Opened.
+D1_L9=[75102]Started Editing.
+D1_L10=[75233]Stopped Editing.
+D1_L11=[75233]Project Closed.
+D2=17-10-2019
+D2_L=2
+D2_L1=[70629]Project Opened.
+D2_L2=[70645]Project Closed.
+D3=21-10-2019
+D3_L=57
+D3_L1=[72702]Project Opened.
+D3_L2=[72705]Started Editing.
+D3_L3=[72826]Stopped Editing.
+D3_E=73
+D3_D=0
+D3_L4=[72826]Project Closed.
+D3_L5=[73345]Project Opened.
+D3_L6=[73364]Started Editing.
+D3_L7=[73622]Stopped Editing.
+D3_L8=[73622]Project Closed.
+D3_L9=[74279]Project Opened.
+D3_L10=[74284]Started Editing.
+D3_L11=[74373]Stopped Editing.
+D3_L12=[74373]Project Closed.
+D3_L13=[74441]Project Opened.
+D3_L14=[74496]Started Editing.
+D3_L15=[74553]Stopped Editing.
+D3_L16=[74553]Project Closed.
+D3_L17=[74703]Project Opened.
+D3_L18=[74876]Started Editing.
+D3_L19=[74931]Stopped Editing.
+D3_L20=[74931]Project Closed.
+D3_L21=[75034]Project Opened.
+D3_L22=[75072]Started Editing.
+D3_L23=[75682]Stopped Editing.
+D3_L24=[75682]Project Closed.
+D3_L25=[75966]Project Opened.
+D3_L26=[75980]Started Editing.
+D3_L27=[76332]Stopped Editing.
+D3_L28=[76332]Project Closed.
+D3_L29=[76435]Project Opened.
+D3_L30=[76444]Started Editing.
+D3_L31=[76745]Stopped Editing.
+D3_L32=[76929]Started Editing.
+D3_L33=[77747]Stopped Editing.
+D3_L34=[77747]Project Closed.
+D3_L35=[77841]Project Opened.
+D3_L36=[77860]Started Editing.
+D3_L37=[77876]Stopped Editing.
+D3_L38=[77876]Project Closed.
+D3_L39=[78078]Project Opened.
+D3_L40=[78170]Started Editing.
+D3_L41=[79283]Stopped Editing.
+D3_L42=[79283]Project Closed.
+D3_L43=[82643]Project Opened.
+D3_L44=[82655]Started Editing.
+D3_L45=[83307]Stopped Editing.
+D3_L46=[83958]Started Editing.
+D3_L47=[84123]Stopped Editing.
+D3_L48=[84124]Project Closed.
+D3_L49=[84998]Project Opened.
+D3_L50=[85085]Started Editing.
+D3_L51=[85391]Stopped Editing.
+D3_L52=[85488]Started Editing.
+D3_L53=[85507]Stopped Editing.
+D3_L54=[85507]Project Closed.
+D3_L55=[85568]Project Opened.
+D3_L56=[85579]Started Editing.
+D3_L57=[85880]Stopped Editing.
+D4=22-10-2019
+D4_E=40
+D4_D=0
+D4_L=32
+D4_L1=[54266]Project Closed.
+D4_L2=[63410]Project Opened.
+D4_L3=[63435]Started Editing.
+D4_L4=[63562]Stopped Editing.
+D4_L5=[63562]Project Closed.
+D4_L6=[64303]Project Opened.
+D4_L7=[64542]Started Editing.
+D4_L8=[64835]Stopped Editing.
+D4_L9=[64835]Project Closed.
+D4_L10=[65445]Project Opened.
+D4_L11=[65526]Started Editing.
+D4_L12=[65639]Stopped Editing.
+D4_L13=[65639]Project Closed.
+D4_L14=[65914]Project Opened.
+D4_L15=[65958]Started Editing.
+D4_L16=[66313]Stopped Editing.
+D4_L17=[66343]Started Editing.
+D4_L18=[67202]Stopped Editing.
+D4_L19=[67437]Started Editing.
+D4_L20=[68130]Stopped Editing.
+D4_L21=[68130]Project Closed.
+D4_L22=[69540]Project Opened.
+D4_L23=[69735]Started Editing.
+D4_L24=[70123]Stopped Editing.
+D4_L25=[70123]Project Closed.
+D4_L26=[70443]Project Opened.
+D4_L27=[70560]Started Editing.
+D4_L28=[72861]Stopped Editing.
+D4_L29=[75103]Started Editing.
+D4_L30=[76647]Stopped Editing.
+D4_L31=[77497]Started Editing.
+D4_L32=[78852]Stopped Editing.
+D5=23-10-2019
+D5_E=72
+D5_D=0
+D5_L=1
+D5_L1=[50456]Project Closed.
+
+[Opened Files]
+1=Esclavo.c
+t1=144
+Count=3
+2=..\Maestro\Maestro.c
+t2=69
+3=..\..\..\MICROS\Pruebas\Mat_LCD.c
+t3=32
+[Units]
+Count=1
+1=Esclavo (main)

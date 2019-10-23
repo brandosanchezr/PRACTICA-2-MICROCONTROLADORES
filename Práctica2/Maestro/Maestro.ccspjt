@@ -1,0 +1,192 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=57
+
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=Maestro.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+CCSVersion=5.083
+Compiler=PCM
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=Maestro.c
+
+[Maestro.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Maestro.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=Maestro.c
+t1=81
+2=..\Esclavo\Esclavo.c
+t2=81
+Count=3
+3=..\..\..\MICROS\Pruebas\Mat_LCD.c
+t3=1
+
+[ProjectLog]
+Days=4
+D1=09-10-2019
+D1_L=18
+D1_L1=[70259]Project Closed.
+D1_L2=[70259]Project Opened.
+D1_L3=[70329]Project Opened.
+D1_L4=[70332]Project Closed.
+D1_L5=[70332]Project Opened.
+D1_L6=[70343]Project Closed.
+D1_L7=[70443]Project Opened.
+D1_L8=[72882]Started Editing.
+D1_L9=[73045]Stopped Editing.
+TotalEdit=119
+TotalDebug=0
+D1_E=19
+D1_D=0
+D1_L10=[73046]Project Closed.
+D1_L11=[74247]Project Opened.
+D1_L12=[74262]Started Editing.
+D1_L13=[75095]Stopped Editing.
+D1_L14=[75095]Project Closed.
+D1_L15=[75233]Project Opened.
+D1_L16=[75385]Started Editing.
+D1_L17=[75469]Stopped Editing.
+D1_L18=[75469]Project Closed.
+D2=17-10-2019
+D2_L=3
+D2_L1=[46126]Project Opened.
+D2_L2=[47298]Started Editing.
+D2_L3=[47584]Project Closed.
+D3=21-10-2019
+D3_L=58
+D3_L1=[72628]Project Opened.
+D3_L2=[72644]Started Editing.
+D3_L3=[72702]Stopped Editing.
+D3_E=70
+D3_D=0
+D3_L4=[72702]Project Closed.
+D3_L5=[72826]Project Opened.
+D3_L6=[72830]Started Editing.
+D3_L7=[73141]Stopped Editing.
+D3_L8=[73219]Started Editing.
+D3_L9=[73345]Stopped Editing.
+D3_L10=[73345]Project Closed.
+D3_L11=[73622]Project Opened.
+D3_L12=[73629]Started Editing.
+D3_L13=[73929]Stopped Editing.
+D3_L14=[74056]Started Editing.
+D3_L15=[74278]Stopped Editing.
+D3_L16=[74278]Project Closed.
+D3_L17=[74373]Project Opened.
+D3_L18=[74379]Started Editing.
+D3_L19=[74441]Stopped Editing.
+D3_L20=[74441]Project Closed.
+D3_L21=[74554]Project Opened.
+D3_L22=[74630]Started Editing.
+D3_L23=[74703]Stopped Editing.
+D3_L24=[74703]Project Closed.
+D3_L25=[74931]Project Opened.
+D3_L26=[74934]Started Editing.
+D3_L27=[75034]Stopped Editing.
+D3_L28=[75034]Project Closed.
+D3_L29=[75682]Project Opened.
+D3_L30=[75691]Started Editing.
+D3_L31=[75867]Project Opened.
+D3_L32=[75889]Started Editing.
+D3_L33=[76332]Project Opened.
+D3_L34=[76335]Started Editing.
+D3_L35=[76435]Stopped Editing.
+D3_L36=[76435]Project Closed.
+D3_L37=[77747]Project Opened.
+D3_L38=[77841]Project Closed.
+D3_L39=[77876]Project Opened.
+D3_L40=[77909]Started Editing.
+D3_L41=[78078]Stopped Editing.
+D3_L42=[78078]Project Closed.
+D3_L43=[79283]Project Opened.
+D3_L44=[79289]Started Editing.
+D3_L45=[80581]Stopped Editing.
+D3_L46=[80584]Project Closed.
+D3_L47=[81115]Project Opened.
+D3_L48=[81127]Started Editing.
+D3_L49=[82643]Stopped Editing.
+D3_L50=[82643]Project Closed.
+D3_L51=[84124]Project Opened.
+D3_L52=[84889]Started Editing.
+D3_L53=[84998]Stopped Editing.
+D3_L54=[84998]Project Closed.
+D3_L55=[85508]Project Opened.
+D3_L56=[85548]Started Editing.
+D3_L57=[85568]Stopped Editing.
+D3_L58=[85568]Project Closed.
+D4=22-10-2019
+D4_L=22
+D4_L1=[63562]Project Opened.
+D4_L2=[63748]Started Editing.
+D4_L3=[64303]Stopped Editing.
+D4_E=30
+D4_D=0
+D4_L4=[64303]Project Closed.
+D4_L5=[64835]Project Opened.
+D4_L6=[64926]Started Editing.
+D4_L7=[65445]Stopped Editing.
+D4_L8=[65445]Project Closed.
+D4_L9=[65639]Project Opened.
+D4_L10=[65678]Started Editing.
+D4_L11=[65914]Stopped Editing.
+D4_L12=[65914]Project Closed.
+D4_L13=[68130]Project Opened.
+D4_L14=[68614]Started Editing.
+D4_L15=[68983]Stopped Editing.
+D4_L16=[69284]Started Editing.
+D4_L17=[69540]Stopped Editing.
+D4_L18=[69540]Project Closed.
+D4_L19=[70123]Project Opened.
+D4_L20=[70403]Started Editing.
+D4_L21=[70442]Stopped Editing.
+D4_L22=[70443]Project Closed.
+[Units]
+Count=1
+1=Maestro (main)

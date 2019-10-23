@@ -1,0 +1,9 @@
+ÀÄMaestro
+   ÀÄMAIN  0/151  Ram=8
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄkbd_init  0/3  Ram=0
+      ÃÄ@PSTRINGC7_9600_62_63  0/90  Ram=4
+      ÃÄkbd_getc  0/138  Ram=3
+      ³  ÃÄ@MUL88  (Inline)  Ram=2
+      ³  ÀÄ@const640  0/16  Ram=0
+      ÀÄ@PSTRINGCN7_9600_62_63  0/91  Ram=5

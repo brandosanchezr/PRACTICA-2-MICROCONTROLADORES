@@ -1,0 +1,99 @@
+// MAESTRO en SPI
+#include <16f877a.h>
+#fuses XT, NOWDT, PUT, NOPROTECT, BROWNOUT, NOCPD, NOWRT, NODEBUG 
+#use delay(crystal=4000000) 
+//#use rs232(baud=9600,xmit=PIN_D0,rcv=PIN_D1,stream=PC, parity=N, bits=8) //18F4550
+#use rs232(baud=9600,xmit=PIN_C6,rcv=PIN_C7,stream=PC, parity=N, bits=8)//16F887
+#define SPI_SS   PIN_C2 
+// Modos de comunicación SPI 
+#define SPI_MODE_0  (SPI_L_TO_H | SPI_XMIT_L_TO_H) 
+// Comandos SPI que acepta el esclavo 
+#define CONECTAR          1 
+
+
+#define use_portb_kbd true
+#include <kbd.c>
+#include <stdio.h>
+
+
+//====================================== 
+void main() 
+{ 
+   char aux;
+   char voltaje [] = {0,0,0};
+   int prueba = 8;
+   int cont = 0;
+   kbd_init();
+   port_b_pullups(true);
+   
+   
+   
+   char resultado,c;
+   
+   output_high(SPI_SS);  // Inicializa el Pin SS en alto para deshabilitar el esclavo
+   
+   //Inicializa el hardware SSP para ser un SPI Maestro en Modo 0
+   setup_spi(SPI_MASTER | SPI_MODE_0 | SPI_CLK_DIV_4); 
+   
+   printf("Presiona cualquier tecla para conectar con el esclavo:\n\r"); 
+  
+    
+   
+   
+   while(1) 
+   { 
+      aux = kbd_getc();
+      c = '\0'; 
+      
+      if(aux!=0){
+         c = 'a';
+         if(aux == '*'){
+            voltaje[0] = '0';
+            voltaje[1] = '0';
+            voltaje[2] = '0';
+            cont = 0;
+         }else if(aux == '#'){
+            //funcion de enviar el dato
+            c = 'a';
+            voltaje[0] = '0';
+            voltaje[1] = '0';
+            voltaje[2] = '0';
+            cont = 0;
+         }
+         else{
+            cont++;
+         
+            if(cont == 1)
+               voltaje[0] = aux;
+            if(cont == 2)
+               voltaje[1] = aux;
+            if(cont == 3)
+               voltaje[2] = aux;
+               
+            if(cont == 3){
+               cont = 0;
+            }
+         }
+         printf("\n\rVout = %c.%c%c", voltaje[0], voltaje[1], voltaje[2]);
+      }
+      
+      //-----------------BLOQUE  SPI-----------------
+     
+      
+      if(c!='\0'){
+         output_low(SPI_SS); 
+         printf("\n\rEnviando %i", prueba);
+         spi_write(prueba);  // Envia el comando 
+         output_high(SPI_SS); 
+         
+         delay_us(100);  // Tiempo para que el esclavo responda
+         
+         output_low(SPI_SS); 
+         resultado = spi_read(0);     // Lee la respuesta del esclavo 
+         output_high(SPI_SS); 
+         
+         printf("\n\r%c", resultado);
+      }
+      //-----------------BLOQUE  SPI-----------------
+   }
+}
