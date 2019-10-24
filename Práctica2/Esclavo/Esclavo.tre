@@ -1,5 +1,5 @@
 ÀÄEsclavo
-   ÃÄMAIN  1/340  Ram=4
+   ÃÄMAIN  1/357  Ram=4
    ³  ÃÄ@cinit1  (Inline)  Ram=0
    ³  ÃÄlcd_init  0/62  Ram=6
    ³  ³  ÃÄ@delay_ms1  0/21  Ram=1
@@ -78,23 +78,18 @@
    ³  ³  ÀÄ*
    ³  ÃÄlcd_putc  0/44  Ram=1
    ³  ³  ÀÄ*
-   ³  ÀÄ@PRINTF_D_667  0/102  Ram=6
-   ³     ÃÄ@DIV88  0/21  Ram=3
-   ³     ÃÄ@DIV88  0/21  Ram=3
-   ³     ÃÄlcd_putc  0/44  Ram=1
-   ³     ³  ÀÄ*
-   ³     ÃÄlcd_putc  0/44  Ram=1
-   ³     ³  ÀÄ*
-   ³     ÃÄlcd_putc  0/44  Ram=1
-   ³     ³  ÀÄ*
-   ³     ÀÄlcd_putc  0/44  Ram=1
-   ³        ÀÄ*
+   ³  ÃÄlcd_putc  0/44  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/44  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÀÄlcd_putc  0/44  Ram=1
+   ³     ÀÄ*
    ÀÄssp_isr  0/352  Ram=9
       ÃÄ@PSTRINGCN7_9600_62_63  0/89  Ram=5
       ÃÄ@PRINTF_D_9600_62_63  (Inline)  Ram=6
       ³  ÃÄ@DIV88  0/21  Ram=3
       ³  ÀÄ@DIV88  0/21  Ram=3
-      ÃÄ@goto58093  0/27  Ram=0
+      ÃÄ@goto7119  0/27  Ram=0
       ÃÄ@ITOF  0/29  Ram=2
       ÃÄ@MULFF  0/117  Ram=13
       ÃÄ@ITOF  0/29  Ram=2

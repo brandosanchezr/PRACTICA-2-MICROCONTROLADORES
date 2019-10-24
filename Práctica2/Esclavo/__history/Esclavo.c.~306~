@@ -142,7 +142,7 @@ void main()
          ventilador = 1;
       else
          ventilador = 0;
-      output_b(ventilador);
+      //output_c(ventilador);
       lcd_gotoxy (1,1);
       printf(lcd_putc, "Vm=%f", voltajeMedido);
       lcd_gotoxy (10,1);
@@ -151,10 +151,10 @@ void main()
       printf(lcd_putc, "Vt=%f", voltajeTecleado);
       lcd_gotoxy (10,2);
       if(ventilador)
-         printf(lcd_putc, " ON");
+         printf(lcd_putc, "ON");
       else
-         printf(lcd_putc, "OFF");
+         printf(lcd_putc, "OFF);
+         
    } 
 }
-
 

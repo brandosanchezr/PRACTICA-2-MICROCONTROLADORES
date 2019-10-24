@@ -151,9 +151,9 @@ void main()
       printf(lcd_putc, "Vt=%f", voltajeTecleado);
       lcd_gotoxy (10,2);
       if(ventilador)
-         printf(lcd_putc, " ON");
+         printf(lcd_putc, "ON");
       else
-         printf(lcd_putc, "OFF");
+         printf(lcd_putc, "ON");
    } 
 }
 

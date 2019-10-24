@@ -1,11 +1,11 @@
 004-005 @WRITE_PROGRAM_MEMORY8.P1
 004-005 @READ_PROGRAM_MEMORY8.P2
-008     lcd
 008     PSP_DATA
 008     lcdlat
+008     lcd
 013     SSPBUF
-015     CCP_1_LOW
 015     CCP_1
+015     CCP_1_LOW
 016     CCP_1_HIGH
 01B     CCP_2
 01B     CCP_2_LOW
@@ -31,25 +31,19 @@
 03E     aux
 03F     ventilador
 040     @TRIS_C
+041-044 @FLT.P1
 041     lcd_init.i
 041-044 @PRINTF_L32D_667FPFPF.P1
-041     @PRINTF_D_667.P2
-041-044 @FLT.P3
 041     MAIN.@SCRATCH1
-042     @PRINTF_D_667.P1
 042-045 lcd_init.LCD_INIT_STRING
 042     MAIN.@SCRATCH2
 043     MAIN.@SCRATCH3
-043     @PRINTF_D_667.@SCRATCH1
 044     MAIN.@SCRATCH4
-044     @PRINTF_D_667.@SCRATCH2
-045-048 @FLT.P1
-045     @PRINTF_L32D_667FPFPF.P2
+045     @PRINTF_L32D_667FPFPF.P1
+045-048 @FLT.P2
 045-048 @DIVFF.P3
-045     @PRINTF_D_667.@SCRATCH3
 046     lcd_init.@SCRATCH1
 046     @PRINTF_L32D_667FPFPF.@SCRATCH1
-046     @PRINTF_D_667.@SCRATCH4
 047     @PRINTF_L32D_667FPFPF.@SCRATCH2
 048     @PRINTF_L32D_667FPFPF.@SCRATCH3
 049-04C @DIVFF.P1
@@ -80,9 +74,9 @@
 056     lcd_read_byte.high
 057     lcd_read_byte.@SCRATCH1
 05B     ssp_isr.comando
-05C-05F @PRINTF_L32D_9600_62_63FPFPF.P1
-05C     @PSTRINGCN7_9600_62_63.P2
-05C     @PRINTF_D_9600_62_63.P3
+05C     @PSTRINGCN7_9600_62_63.P1
+05C     @PRINTF_D_9600_62_63.P2
+05C-05F @PRINTF_L32D_9600_62_63FPFPF.P3
 05C     ssp_isr.@SCRATCH1
 05D     @PRINTF_D_9600_62_63.P1
 05D     ssp_isr.@SCRATCH2
@@ -115,9 +109,9 @@
 067     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH7
 068-06B @ADDFF.P1
 068     @PRINTF_L32D_9600_62_63FPFPF.@SCRATCH8
-069-06C @MULFF.P1
-069-06C @DIV3232.P2
-069-06C @FTOSD.P3
+069-06C @DIV3232.P1
+069-06C @FTOSD.P2
+069-06C @MULFF.P3
 06C     @ADDFF.@SCRATCH1
 06D-070 @DIV3232.P1
 06D-070 @MULFF.P2
@@ -225,7 +219,7 @@ ROM Allocation:
 000300  @PRINTF_L32D_9600_62_63FPFPF
 0003C7  ssp_isr
 0003D5  @PRINTF_D_9600_62_63
-000527  @goto58093
+000527  @goto7119
 000542  @const688.call
 000546  @const707.call
 000554  @const716.call
@@ -240,7 +234,6 @@ ROM Allocation:
 0006E0  @FLT
 000721  lcd_gotoxy
 000733  lcd_putc
-00075F  @PRINTF_D_667
 000800  @PRINTF_L32D_667FPFPF
 0008EB  MAIN
 0008EB  @cinit1
@@ -250,14 +243,14 @@ Project Directory:
     C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\
 
 Project Files:
-    Esclavo.c                                               [22-Oct-19 21:49  CRC=8F121A7F]
+    Esclavo.c                                               [23-Oct-19 18:45  CRC=AE5C107B]
     ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h [06-Mar-19 14:26  CRC=5556804F]
     ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c [22-Feb-16 09:05  CRC=D1A6378A]
 
-Source signature=87B509E2
+Source signature=A6FEFFDE
 Program memory checksum=0000
 Program memory CRC=0000
-Hex file CRC=196A
+Hex file CRC=086C
 
 Units:
     Esclavo (main)

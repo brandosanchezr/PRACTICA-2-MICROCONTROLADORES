@@ -9,7 +9,7 @@ enabled=0
 chip=1
 D1=
 V1=
-buildcount=134
+buildcount=142
 
 [fileformats]
 forcecoff=0
@@ -182,17 +182,24 @@ D4_L32=[78852]Stopped Editing.
 D5=23-10-2019
 D5_E=72
 D5_D=0
-D5_L=1
+D5_L=6
 D5_L1=[50456]Project Closed.
+D5_L2=[56176]Project Opened.
+D5_L3=[56208]Project Closed.
+D5_L4=[66578]Project Opened.
+D5_L5=[66594]Started Editing.
+D5_L6=[67832]Stopped Editing.
 
 [Opened Files]
 1=Esclavo.c
-t1=144
-Count=3
+t1=133
+Count=4
 2=..\Maestro\Maestro.c
-t2=69
+t2=57
 3=..\..\..\MICROS\Pruebas\Mat_LCD.c
 t3=32
+4=..\..\..\MICROS\Pruebas\TECLADO.c
+t4=1
 [Units]
 Count=1
 1=Esclavo (main)

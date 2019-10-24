@@ -1,10 +1,9 @@
-Compiling C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo on 22-Oct-19 at 21:49
+Compiling C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo on 23-Oct-19 at 18:45
 >>> Warning 203 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 135(1,1): Condition always TRUE
->>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 154(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
->>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 154(1,2): Interrupts disabled during call to prevent re-entrancy:  (@FTOSD)
->>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 154(1,2): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
->>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 154(1,2): Interrupts disabled during call to prevent re-entrancy:  (@DIV88)
->>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 154(1,2): Interrupts disabled during call to prevent re-entrancy:  (@ITOF)
-      Memory usage:   ROM=31%      RAM=11% - 25%
-      0 Errors,  6 Warnings.
+>>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 158(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MULFF)
+>>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 158(1,2): Interrupts disabled during call to prevent re-entrancy:  (@FTOSD)
+>>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 158(1,2): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
+>>> Warning 216 "C:\Users\Brando Sanchez\Documents\CCS C Projects\Ejemplo\Esclavo\Esclavo.c" Line 158(1,2): Interrupts disabled during call to prevent re-entrancy:  (@ITOF)
+      Memory usage:   ROM=30%      RAM=11% - 25%
+      0 Errors,  5 Warnings.
 Build Successful.
